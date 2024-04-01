@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+.button
+	{
+		background-image:url("../Images/menu-bg.png"); 
+		border: 1px solid #999;
+		cursor:pointer;
+		height: 30px; 
+		width: 112px;
+		}
+		.button:hover
+	{
+		background: url(../Images/Hover.png);
+		border: 1px solid #FC0  ;
+		
+		}

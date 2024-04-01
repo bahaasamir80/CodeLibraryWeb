@@ -1,0 +1,158 @@
+@charset "utf-8";
+body
+{
+	margin:0;
+	padding:0;
+	font:70% "Courier New"; 
+	color:#555;
+	line-height:150%;
+	text-align:left;
+}
+
+#maincontainer
+{
+	  overflow:scroll;
+	  width:250px;
+	  height:700px;	
+	  background:rgb( 252, 252, 254 );
+	 
+}
+
+#container
+{
+	margin:0 auto;
+	width:1000px;
+	
+	padding-bottom:20px;
+}
+
+#content
+{
+	margin:0 20px;
+}
+
+p
+{	
+	margin:0 auto;
+	width:100%;
+	padding:1em 0;
+}
+
+#treeview, #treeview ul, #treeview li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#treeview
+{
+	background:url(../Images/line1.gif) repeat-y;
+}
+
+#treeview li
+{
+	line-height:20px;
+	margin-top:1px;
+	position:relative;
+	width:100%;
+}
+/* IE leaves a blank space where span is added so this is to avoid that */
+#treeview li
+{
+	float:left;
+	display:inline;
+}
+
+#treeview li a
+{
+	padding-left:28px;
+}
+#treeview a
+{
+	text-decoration:none;
+	color:#057fac;
+	cursor:pointer;
+}
+
+#treeview a:hover
+{
+	text-decoration:none;
+	color:#999;
+}
+
+#treeview a:focus      
+{ 
+background-color:Highlight;
+color:Black;
+font-size:small;
+
+font-style:italic;
+
+}
+	
+
+#treeview li span
+{
+	float:left;
+	position:absolute;
+	top:5px;left:5px;
+	width:13px;
+	height:13px;
+	cursor:auto;
+	font-size:0;
+}
+
+#treeview li span, #treeview li span.collapsed
+{
+	background:url(../Images/collapsed.gif) no-repeat 0 0;	
+}
+	
+#treeview li span.expanded
+{
+	background:url(../Images/expanded.gif) no-repeat 0 0;
+}
+
+/* sub levels */
+
+#treeview li ul
+{	
+	margin-left:28px;
+	background:url(../Images/line1.gif) repeat-y;
+}
+#treeview li li
+{	
+	background:url(../Images/line2.gif) no-repeat 0 0;
+}
+
+/* etc. */
+
+/* float fix */
+
+#treeview:after, #treeview ul:after
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+#treeview, #treeview ul
+{
+	display:block;
+}
+/*  \*/
+#treeview, #treeview ul
+{
+	min-height:1%;
+}
+#treeview, * html #treeview ul
+{
+	 height:1%;
+}
+ /*  */
+#treeview ul
+{
+	display:none;
+}

@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+
+body {
+   behavior: url("csshover3.htc");
+   
+}
+select
+{
+	font-family:"Courier New";
+	font-size:small;
+	font-weight:bold;	
+}
+
+#MainTable
+{
+	 width:1024px;
+	 height:768px; 
+	 border-collapse: collapse;	
+}

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "G:\CodeLibraryWeb_\", ".", "{42E6F7BC-DD71-441C-8F2A-7176430788F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/CodeLibraryWeb"
+		Debug.AspNetCompiler.PhysicalPath = "H:\Final Code Library\CodeLibraryWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CodeLibraryWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CodeLibraryWeb"
+		Release.AspNetCompiler.PhysicalPath = "H:\Final Code Library\CodeLibraryWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CodeLibraryWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62777"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E6F7BC-DD71-441C-8F2A-7176430788F4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{42E6F7BC-DD71-441C-8F2A-7176430788F4}.Debug|.NET.Build.0 = Debug|.NET
+		{42E6F7BC-DD71-441C-8F2A-7176430788F4}.Release|.NET.ActiveCfg = Debug|.NET
+		{42E6F7BC-DD71-441C-8F2A-7176430788F4}.Release|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

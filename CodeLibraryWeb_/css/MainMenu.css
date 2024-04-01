@@ -1,0 +1,84 @@
+@charset "utf-8";
+td.hovr:hover 
+{
+	background-image: url(../Images/Hover.png);
+	cursor:pointer;
+}
+
+
+
+#menu
+{
+	width:100%;
+	height:100%;
+	background-image:url(../Images/menu-bg.png);
+	border-collapse: collapse;
+	font-family:"Courier New";
+	font-size:small;
+	font-weight:bold;
+}
+	
+#menu td
+{
+	text-transform:capitalize;
+	border-right: 1px solid  #FFF;
+}
+	
+#menu a
+{
+	text-decoration:none;
+	color:#000;
+	margin-top:0px;
+	padding-top:0px;
+}
+	
+#menu img
+{
+	 width:20px; 
+	 height:20px;
+	 border:none;
+}
+	
+#search div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+    background: #000;
+    border: 1px solid rgb( 145, 155, 156 ); 
+    z-index:5;
+    
+}
+	
+#search div a
+{	
+    position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	text-transform:capitalize;
+	background:#F5F5F5;
+	color: #2875DE;
+	font-family:"Courier New";
+	font-size:small;
+	font-weight:bold;
+	
+	
+}
+		
+#search  div a:hover
+{	
+    background: url(../Images/Hover.png);
+    border: 1px solid   rgb( 145, 155, 156 ) ;
+   
+}
+
+
+
+
+
+
